@@ -34,17 +34,18 @@
       margin-bottom: 2rem;
     }
 
-    input, button {
+    input, button, select {
       appearance: none;
       border: none;
       font-size: inherit;
       background: #eee;
+      border: 1px solid;    
       border-radius: 3px;
       padding: 1rem;
       width: 100%;
     }
 
-    input {
+    input, select {
       margin-bottom: 1rem;
     }
 
