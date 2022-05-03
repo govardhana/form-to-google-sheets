@@ -71,7 +71,7 @@
   const form = document.forms['submit-to-google-sheet']
 
   window.onload= function(){
-    document.getElementById('timestamp').value=(new Date()).toISOString().substr(0,10));
+    document.getElementById('timestamp').value=(new Date().toISOString().substr(0,10));
   }
   form.addEventListener('submit', e => {
     e.preventDefault()
